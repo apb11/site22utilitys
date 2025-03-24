@@ -2,13 +2,14 @@
 using Exiled.API.Enums;
 using System;
 
+
 namespace site22utillitys;
 
 public sealed class Plugin : Plugin<Config>
 {
     public override string Name => "site22utillitys";
     public override string Prefix => "site22utillitys";
-    public override string Author => "aksueikava (Watashi o yūwaku suru)";
+    public override string Author => "APB11";
     public override Version Version => new(1, 0, 0);
     public override Version RequiredExiledVersion => new(9, 5, 0);
     public override PluginPriority Priority { get; } = PluginPriority.Default;

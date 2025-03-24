@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Exiled.Plugin.Template")]
-[assembly: AssemblyDescription("Template plugin for EXILED framework")]
+[assembly: AssemblyTitle("site22utillitys")]
+[assembly: AssemblyDescription("A plugin for site 22")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Exiled.Plugin.Template")]
+[assembly: AssemblyProduct("site22utillitys")]
 [assembly: AssemblyCopyright("Copyright © 2025 aksueikava. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

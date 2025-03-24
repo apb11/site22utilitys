@@ -5,6 +5,7 @@ using Exiled.API.Features.Attributes;
 using Exiled.API.Features.Spawn;
 using Exiled.CustomRoles.API.Features;
 using Exiled.Events.EventArgs.Scp106;
+using MapEditorReborn.Events.EventArgs;
 using PlayerRoles;
 
 
@@ -15,7 +16,9 @@ namespace site22utillitys
     {
         public int Chance { get; set; } = 0;
 
-        
+
+
+
 
         public override uint Id { get; set; } = 100;
 
@@ -28,6 +31,7 @@ namespace site22utillitys
         public override string Description { get; set; } =
             "an Scp 106 used for RPs";
 
+
         public override string CustomInfo { get; set; } = "RP 106";
 
         public override bool KeepInventoryOnSpawn { get; set; } = false;
@@ -36,9 +40,11 @@ namespace site22utillitys
 
         public override bool RemovalKillsPlayer { get; set; } = true;
 
+
+
         public override SpawnProperties SpawnProperties { get; set; } = new()
         {
-            Limit = 1,
+            Limit = 0,
             RoleSpawnPoints = new List<RoleSpawnPoint>
             {
                 new()
@@ -51,16 +57,14 @@ namespace site22utillitys
 
         public override List<string> Inventory { get; set; } = new()
         {
-            
         };
 
-        public override Dictionary<AmmoType, ushort> Ammo { get; set; } = new()
-        {
-            {
-                AmmoType.Nato9, 10
-            },
-        };
-       
+        
+
+
+
+
+
 
 
     }

@@ -8,7 +8,6 @@ using Exiled.API.Features.Attributes;
 using Exiled.API.Features.Spawn;
 using Exiled.CustomItems.API.Features;
 using Exiled.Events.EventArgs.Player;
-
 using Targeting;
 using Player = Exiled.Events.Handlers.Player;
 
@@ -59,11 +58,11 @@ public class amnestics
         {
             if (!Check(ev.Player.CurrentItem))
                 return;
-            
+
             ev.Player.EnableEffect(EffectType.Traumatized, 10, 250f, true);
-            
-            
-            
+
+
+
 
 
         }

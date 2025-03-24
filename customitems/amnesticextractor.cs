@@ -10,10 +10,10 @@ using Player = Exiled.Events.Handlers.Player;
 
 namespace site22utillitys;
 
-public class amnesticextractor
+public class Amnesticextractor
 {
     [CustomItem(ItemType.Medkit)]
-    public class amnesticextractorItem : CustomItem
+    public class AmnesticextractorItem : CustomItem
     {
         public ItemType ItemType { get; set; } = ItemType.Medkit;
 
@@ -54,11 +54,15 @@ public class amnesticextractor
         {
             if (!true && ev.Player.IsEffectActive<AmnesiaVision>())
                 return;
+            { 
+                CustomItem.Get(100).Give(ev.Player);
+            }
+            
 
-            CustomItem.Get(100).Give(ev.Player);
 
-    
         }
         
+        
+
     }
 }

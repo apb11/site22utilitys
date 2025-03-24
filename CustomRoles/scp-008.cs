@@ -12,6 +12,7 @@ using Exiled.Events.Features;
 using System;
 
 
+
 namespace site22utillitys
 {
     public class MedicZombie : CustomRole, ICustomRole
@@ -28,12 +29,16 @@ namespace site22utillitys
         public override RoleTypeId Role { get; set; } = RoleTypeId.Scp0492;
         public bool DamageInterruptsHot { get; private set; }
 
-        public void OnHurting(HurtingEventArgs ev)
+
+        public static void OnKill(DyingEventArgs ev)
         {
 
-            
+
+
+
+
         }
 
-        
+
     }
 }

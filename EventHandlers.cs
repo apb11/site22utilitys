@@ -7,6 +7,8 @@ namespace site22utillitys;
 
 public class EventHandlers
 {
+
+
     public void OnPlayerVerified(VerifiedEventArgs ev)
     {
         try
@@ -19,10 +21,10 @@ public class EventHandlers
         }
 
 
-        
+
     }
 
-    
+
 
 
 

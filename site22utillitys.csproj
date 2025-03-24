@@ -20,20 +20,74 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>D:\Dev\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography">
+      <HintPath>D:\Dev\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Caress">
+      <HintPath>D:\Dev\Caress.dll</HintPath>
+    </Reference>
     <Reference Include="CommandSystem.Core">
-      <HintPath>..\..\..\..\Downloads\Dev\CommandSystem.Core.dll</HintPath>
+      <HintPath>D:\Dev\CommandSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DnsClient">
+      <HintPath>D:\Dev\DnsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Steamworks.Win64">
+      <HintPath>D:\Dev\Facepunch.Steamworks.Win64.dll</HintPath>
+    </Reference>
+    <Reference Include="HintServiceMeow">
+      <HintPath>D:\HintServiceMeow-Exiled.dll</HintPath>
+    </Reference>
+    <Reference Include="MapEditorReborn">
+      <HintPath>D:\MapEditorReborn.dll</HintPath>
+    </Reference>
+    <Reference Include="Mirror">
+      <HintPath>D:\Dev\Mirror.dll</HintPath>
+    </Reference>
+    <Reference Include="Mirror.Components">
+      <HintPath>D:\Dev\Mirror.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>D:\Dev\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>D:\Dev\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>D:\Dev\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>D:\Dev\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>D:\Dev\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\Dev\netstandard.dll</HintPath>
     </Reference>
     <Reference Include="NorthwoodLib">
-      <HintPath>..\..\..\..\Downloads\Dev\NorthwoodLib.dll</HintPath>
+      <HintPath>D:\Dev\NorthwoodLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PlaceholderAPI">
+      <HintPath>D:\PlaceholderAPI.dll</HintPath>
     </Reference>
     <Reference Include="PluginAPI">
-      <HintPath>..\..\..\..\Downloads\Dev\PluginAPI.dll</HintPath>
+      <HintPath>D:\Dev\PluginAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Pooling">
+      <HintPath>D:\Dev\Pooling.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\Dev\System.ComponentModel.Composition.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Net.Http" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>..\..\..\..\Downloads\Dev\UnityEngine.UI.dll</HintPath>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Dev\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
